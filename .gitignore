@@ -1,0 +1,5 @@
+nginx/extra/
+!nginx/extra/symfony.conf
+php/extra/
+!php/extra/symfony.ini
+docker-env
