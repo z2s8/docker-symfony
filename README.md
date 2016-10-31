@@ -13,4 +13,8 @@ symfony_php_1     php-fpm                       Up      0.0.0.0:9000->9000/tcp
 ```
 
 ## Installation
-    ...
+
+Clone or download this repo, then: 
+```bash
+$ docker-compose up
+```
