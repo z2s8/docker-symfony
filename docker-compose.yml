@@ -14,6 +14,7 @@ services:
     build: php
     env_file: docker-env
     ports:
+      - "8888:8888"
       - "9000:9000"
     volumes:
       - ~/www:/var/www/html
@@ -24,11 +25,4 @@ services:
     env_file: docker-env
     ports:
       - "3306:3306"
-    tty: true
-
-  node:
-    image: node:latest
-    env_file: docker-env
-    ports:
-      - "8888:8888"
     tty: true
